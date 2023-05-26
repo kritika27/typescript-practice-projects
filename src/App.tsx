@@ -44,7 +44,6 @@ const handleSubmit=(e:React.FormEvent<HTMLFormElement>)=>{
 
 const editItem=(id:number):void=>{
   const editItem:any=list.find(el=>el.id===id);
-  console.log(editItem);
    setItem(editItem.item);
    setEditId(editItem.id);
 }
